@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: BurlyWood;
+	color: indigo;
+	font-family: arial, helvetica, sans-serif;
+}
+
+ul {
+	padding: 2em;
+}
+
+/* Title Box */
+
+.title {
+ 	max-width: 100%;
+  	padding: 10px;
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+    border-style: solid;
+}
+
+.title h1 {
+	font-size: 55px;
+    padding: 5px;
+}
+
+.title h2 {
+	font-size: 30px;
+    padding: 5px;
+}
+
+.title h3 {
+	font-size: 25px;
+    padding: 5px;
+}
+
+/* Navigation */
+
+nav {
+	display: block;
+    background-color: indigo;
+    width: 100%;
+    font-size: 16px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: indigo;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: black;
+}
+
+.active {
+  background-color: black;
+}
+
+/* Card */
+
+.card {
+    margin-top: 10px;
+}
+
+.card h1 {
+	font-size: 30px;
+}
+
+/* Footer Box */
+
+footer {
+  display: flex;
+  width: 100%;
+  padding: 3px;
+  bottom: 0;
+  background-color: indigo;
+  color: BurlyWood;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+	color: red;
+}
+
+.footer-column {
+  float: left;
+  padding: 10px;
+}
+
+.footer-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-column.side, .footer-column.middle {
+    width: 100%;
+  }
+}
