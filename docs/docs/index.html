@@ -1,95 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head>
-        <title>Journal Landing Page</title>
-        <link rel="stylesheet" type="text/css" href="journal.css" />
-        <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet" />
-        <script type="text/javascript" src="../journal.js"></script>
+        <title>2023 Digital Mitford Project</title>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Hadleigh Jae Bills" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="webstyle.css" />
     </head>
-    <body id="landing">
-        <div id="nav_wide">
-            <div id="menu">
-                <ul id="siteMenu">
-                    <li class="title">
-                        <span class="mainTitle">Digital Mitford:</span>
-                        <br />
-                        <span class="subTitle">Mary Russell Mitford's Notebook of 1819 to
-                            1823</span>
-                    </li>
-                    <li class="mainMenu">
-                        <ul class="mainMenu">
-                            <li class="section" id="Overview">
-                                <ul class="subSec">
-                                    <li class="subMenu">
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li class="subMenu">
-                                        <a href="visual.html">Mitford’s Worlds</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="section" id="Bib">
-                                <ul class="subSec">
-                                    <li class="subMenu">
-                                        <a href="letters.html">Letters</a>
-                                    </li>
-                                    <li class="subMenu">Journal</li>
-                                    <li class="subMenu">
-                                        <a href="bibliogType.html">Bibliography</a>
-                                    </li>
-                                    <li class="subMenu">
-                                        <a href="lettersData.html">Manuscript Locations</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="section" id="Editions">
-                                <ul class="subSec">
-                                    <li class="subMenu">Plays</li>
-                                    <li class="subMenu">Poems</li>
-                                    <li class="subMenu">Fiction</li>
-                                </ul>
-                            </li>
-                            <li class="section" id="Project">
-                                <ul class="subSec">
-                                    <li class="subMenu">
-                                        <a href="about.html">Methods &amp; Background</a>
-                                    </li>
-                                    <li class="subMenu">
-                                        <a href="staff.html">Staff</a>
-                                    </li>
-                                    <li class="subMenu">Scholarship</li>
-                                </ul>
-                            </li>
-                            <li class="section" id="Outreach">
-                                <ul class="subSec">
-                                    <li class="subMenu">
-                                        <a href="workshop.html">Coding School</a>
-                                    </li>
-                                    <li class="subMenu">
-                                        <a href="https://digitalmitford.wordpress.com/">Blog</a>
-                                    </li>
-                                    <li class="subMenu">
-                                        <a href="applicationProcess.html">Become a Mitford
-                                            Editor</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+    <!--This page is published at https://github.com/HadleighJae/stu2023_DM_Journal/blob/main/docs/index.html -->
+    <body>
+        <div class="title">
+            <h1>Digital Mitford Project</h1>
+            <h2>Mary Russell Mitford's Notebook</h2>
+            <h3>Fall 2023</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://hadleighjae.github.io/stu2023_DM_Journal/about.html">About</a></li>
+                <li><a href="https://hadleighjae.github.io/stu2023_DM_Journal/texts.html">Texts</a></li>
+                <li><a href="https://hadleighjae.github.io/stu2023_DM_Journal/analysis.html">Analysis</a></li>
+                <li><a href="https://hadleighjae.github.io/stu2023_DM_Journal/mitfordODD.html">ODD</a></li>
+                <li style="float:right"><a class="active" href="https://hadleighjae.github.io/stu2023_DM_Journal/">Home</a></li>
+            </ul>
+        </nav>
+        <img src="images/pennStateLogo.png" alt="Penn State University Logo"/>
+        <!--ebb: When pointing to images in your own repo, always use *relative* file associations: Here we are pointing to an images directory that's in the same
+        folder as this HTML file we're editing. And we're going into the images folder to deliver the newt-mosaic4.png file inside. -->
+        <div class="card">
+            <h1>Members:</h1>
+            <ul>
+                <li>Hadleigh Jae Bills</li>
+                <li>Nate Hammer</li>
+                <li>Josiah Ruiz</li>
+            </ul>
+        </div>
+        <footer>
+            <div class="footer-column">
+                <p>We are at <a class="footer" href="https://behrend.psu.edu/">Penn State Erie, The Behrend College</a>.</p>
+                <!--ebb: The <a> element above is showing how to make an *absolute* file association with a literal, full website address. 
+            Only do this for pointing OUTSIDE your own repo. -->
             </div>
-        </div>
-        <div id=landCont>
-            <section id="landTitle">
-                <div id=landVert>
-                    <h1>Digital Mitford Journal Project</h1>
-                    <div>
-                        <div class="button">
-                            <a href="journal-view/Dec-1818-to-Jan-1819.html">Take Me There!</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
+            <div class="footer-column">
+                <a href="https://github.com/HadleighJae/portfolio">
+                    <img src="https://cdn.iconscout.com/icon/free/png-128/github-3770680-3147283.png" alt="github logo" style="filter: invert(100%); width: 30px;"/>
+                </a>
+            </div>
+        </footer>
     </body>
 </html>
